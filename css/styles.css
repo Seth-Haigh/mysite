@@ -2,6 +2,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
+  background-color: #EAF6F6;
 }
 
 h1 {
@@ -26,7 +27,7 @@ h3 {
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: #EAF6F6;
+  border-color: #BFD8D5;
   border-width: 10px;
   width: 10%;
 }
@@ -44,21 +45,28 @@ hr {
 
 .hg-container {
   position: absolute;
-  left: 40%;
-  bottom: 25%;
   z-index: 1;
+  top: 25px;
+  }
+
+.gliders {
+  width: 300%;
+  height: 500px;
+  position: relative;
+  left: 35%;
+  right: 35%;
 }
 
 .top-cloud {
   z-index: +5;
   position: absolute;
-  left: 300px;
+  right: 300px;
   top: 20px;
 }
 
 .bottom-cloud {
   position: absolute;
-  right: 200px;
+  left: 200px;
 }
 
 .mountain {
