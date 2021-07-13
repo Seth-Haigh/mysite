@@ -137,7 +137,12 @@ hr {
   padding: 30px;
 }
 
-.middle-container {}
+.middle-container {
+  width: 75%;
+  margin: 100px auto 100px auto;
+  text-align: center;
+  line-height: 2;
+}
 
 .footer-link {
   color: #11999E;
