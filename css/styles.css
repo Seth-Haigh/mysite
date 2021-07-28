@@ -47,7 +47,7 @@ p {
 .top-container {
   background-color: #EAF6F6;
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
   z-index: +1;
 }
 
@@ -184,7 +184,7 @@ p {
 
 .middle-container {
   width: 75%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 50px auto;
   text-align: center;
 }
 
