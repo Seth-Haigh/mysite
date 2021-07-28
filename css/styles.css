@@ -78,23 +78,23 @@ p {
 
 .bottom-cloud2 {
   position: absolute;
-  right: 15%;
-  bottom: 20%;
+  right: 20%;
+  bottom: 27%;
   z-index: -1;
   width: 40%;
 }
 
 .bottom-cloud3 {
   position: absolute;
-  right: 1%;
-  bottom: 25%;
+  left: 83%;
+  bottom: 15%;
   z-index: -1;
   width: 30%;
 }
 
 .bottom-cloud4 {
   position: absolute;
-  left: 15%;
+  left: 33%;
   bottom: 25%;
   z-index: -1;
   width: 40%;
