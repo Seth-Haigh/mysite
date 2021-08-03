@@ -40,6 +40,17 @@ p {
   line-height: 2;
 }
 
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
 .und {
   text-decoration: underline;
 }
@@ -52,12 +63,29 @@ p {
 }
 
 
+.middle-container {
+  color: #11999E;
+  width: 75%;
+  margin: 50px auto 50px auto;
+  text-align: center;
+  background-color: #EAF6F6;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  color: #EAF6F6;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: .75rem;
+  padding: 50px;
+}
+
 .gliders {
   position: absolute;
-  bottom: 20%;
-  right: 15%;
-  height: 15rem;
-  z-index: +5;
+  width: 20%;
+  bottom: 35%;
+  left: -7%;
+  z-index: -5;
 }
 
 .top-cloud {
@@ -70,7 +98,7 @@ p {
 
 .bottom-cloud {
   position: absolute;
-  left: 2%;
+  right: 10%;
   bottom: 30%;
   z-index: -1;
   width: 30%;
@@ -78,23 +106,23 @@ p {
 
 .bottom-cloud2 {
   position: absolute;
-  right: 20%;
-  bottom: 27%;
+  left: 10%;
+  bottom: 35%;
   z-index: -1;
   width: 40%;
 }
 
 .bottom-cloud3 {
   position: absolute;
-  left: 83%;
-  bottom: 15%;
+  right: 28%;
+  bottom: 33%;
   z-index: -1;
   width: 30%;
 }
 
 .bottom-cloud4 {
   position: absolute;
-  left: 33%;
+  left: -5%;
   bottom: 25%;
   z-index: -1;
   width: 40%;
@@ -108,8 +136,10 @@ p {
 
 .mountain {
   position: relative;
-  z-index: -2;
-  width: 80%;
+  z-index: -10;
+  width: 95%;
+  left: 2%;
+  top: 1%;
 }
 
 .techpm {
@@ -135,6 +165,7 @@ p {
   margin: 100px auto 100px auto;
   text-align: left;
   line-height: 2;
+  color: #40514E;
 }
 
 .profile {
@@ -178,25 +209,23 @@ p {
 }
 
 .contact-me {
-  padding: 30px;
-  margin: 100px auto 100px auto;
-}
-
-.middle-container {
-  width: 75%;
-  margin: 50px auto 50px auto;
-  text-align: center;
+  padding: 10px;
+  margin: 100px 0 100px 0;
 }
 
 .footer-link {
   color: #11999E;
-  margin: auto 20px auto 20px
+  font-size: 1rem;
+  padding: 10px 10px 25px 10px;
 }
 
-.bottom-container {
-  background-color: #66BFBF;
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bolder;
-  font-size: 1.1rem;
+.footer-link2 {
+  color: #11999E;
+  font-size: .75rem;
+  padding: 10px 10px 25px 10px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: .75rem
 }
